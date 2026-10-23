@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ar lumina by Arlika</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="logo-container">
+      <img src="https://i.ibb.co.com/jv2b7j2P/White-Black-Minimal-Elegant-Makeup-Artist-Logo-20261020-214114-0000.png" alt="Ar lumina Logo" class="logo">
+    </div>
+    <h1>"Ar lumina by Arlika."</h1>
+    <nav class="navbar">
+      <a href="#profil">Profil</a>
+      <a href="#transition">Transition</a>
+      <a href="#makeup-result">Makeup Result</a>
+      <a href="#pricelist">Pricelist</a>
+      <a href="#benefit">Benefit</a>
+      <a href="#contact-location">Contact & Location</a>
+      <a href="#booking">Booking</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section id="profil" class="profile-card">
+      <h2>Profil</h2>
+      <p>Arlika Maulani adalah seorang <strong>Makeup Artist</strong> yang berdomisili di Bandung. Ciri khas Arlumina menampilkan wajah yang lebih <em>fresh, flawless,</em> dan tahan lama dengan menggunakan produk serta teknik berkualitas tinggi. Arlumina menyediakan layanan makeup untuk <strong>Graduation, Bridesmaid, Photoshoot,</strong> dan <strong>Karnaval</strong>.</p>
+    </section>
+
+    <section id="transition" class="section-container">
+      <h2>Transition</h2>
+      <p>Geser slider untuk melihat perbedaan Before & After:</p>
+      
+        <div class="img-comp-container" id="before-after-slider">
+        <div class="img-comp-img">
+          <img src="https://i.ibb.co.com/BKFnmDXy/IMG-20260628-190621.jpg" alt="After Makeup">
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img src="https://i.ibb.co.com/PzZ4tDhw/IMG-20261007-173950.jpg" alt="Before Makeup">
+        </div>
+      </div>
+    </section>
+
+    <section id="makeup-result" class="section-container">
+      <h2>Makeup Result</h2>
+      <div class="container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="https://i.ibb.co.com/BKFnmDXy/IMG-20260628-190621.jpg" style="width:100%" alt="Graduation">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="https://i.ibb.co.com/wr0CxbzJ/IMG-20260524-165015.jpg" style="width:100%" alt="Bridesmaid">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="https://i.ibb.co.com/ynG3Mqj6/IMG-20260711-115703.jpg" style="width:100%" alt="Photoshoot">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="https://i.ibb.co.com/9kqc8Vp5/IMG-20261007-WA0004.jpg" style="width:100%" alt="Karnaval">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+        
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="https://i.ibb.co.com/BKFnmDXy/IMG-20260628-190621.jpg" style="width:100%" onclick="currentSlide(1)" alt="Graduation">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="https://i.ibb.co.com/wr0CxbzJ/IMG-20260524-165015.jpg" style="width:100%" onclick="currentSlide(2)" alt="Bridesmaid">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="https://i.ibb.co.com/ynG3Mqj6/IMG-20260711-115703.jpg" style="width:100%" onclick="currentSlide(3)" alt="Photoshoot">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="https://i.ibb.co.com/9kqc8Vp5/IMG-20261007-WA0004.jpg" style="width:100%" onclick="currentSlide(4)" alt="Karnaval">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricelist" class="section-container">
+      <h2>Price List</h2>
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Makeup Type</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Graduation</td>
+            <td>Rp 150.000</td>
+          </tr>
+          <tr>
+            <td>Bridesmaid</td>
+            <td>Rp 150.000</td>
+          </tr>
+          <tr>
+            <td>Photoshoot</td>
+            <td>Rp 200.000</td>
+          </tr>
+          <tr>
+            <td>Karnaval</td>
+            <td>Rp 200.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
+    <section id="benefit" class="section-container">
+      <h2>Benefit yang Didapat</h2>
+      <div class="benefit-grid">
+        <div class="benefit-card">
+          <span class="benefit-icon">✨</span>
+          <h3>Bulu Mata Premium</h3>
+          <p>Membuat mata terlihat lebih hidup dan menawan.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">👁️</span>
+          <h3>Free Softlens</h3>
+          <p>Softlens cantik yang nyaman dipakai sepanjang hari.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">💄</span>
+          <h3>Touch Up Kit</h3>
+          <p>Perlengkapan mini untuk menjaga makeup tetap fresh.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">💇‍♀️</span>
+          <h3>Hairdo / Hijab Styling</h3>
+          <p>Styling simpel dan rapi yang disesuaikan dengan gaun Anda.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact-location" class="section-container contact-box">
+      <h2>Contact & Location</h2>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-icon">📍</span>
+          <div>
+            <strong>Alamat:</strong>
+            <p>Pangalengan, Bandung, Jawa Barat</p>
+          </div>
+        </li>
+        <li>
+          <span class="contact-icon">💬</span>
+          <div>
+            <strong>WhatsApp:</strong>
+            <p><a href="https://wa.me/621234567" target="_blank">+62 123-4567-890</a></p>
+          </div>
+        </li>
+        <li>
+          <span class="contact-icon">📸</span>
+          <div>
+            <strong>Social Media:</strong>
+            <p><a href="https://www.instagram.com/arlikaamlni?stkn=MXZrZml5NnZnbWRueQ==" target="_blank">Instagram (@arlikaamlni)</a></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    
+
+    <!-- Section Booking -->
+    <section id="booking" class="section-container booking-box">
+      <h2>Booking Form</h2>
+      <form class="booking-form">
+        <div class="form-group">
+          <label for="masukan-nama">Nama Lengkap:</label>
+          <input type="text" id="masukan-nama" placeholder="Masukkan nama Anda" required>
+        </div>
+
+        <div class="form-group">
+          <label>Pilih Tipe Makeup:</label>
+          <div class="radio-group">
+            <label><input type="radio" name="booking-type" value="graduation"> Graduation</label>
+            <label><input type="radio" name="booking-type" value="bridesmaid"> Bridesmaid</label>
+            <label><input type="radio" name="booking-type" value="photoshoot"> Photoshoot</label>
+            <label><input type="radio" name="booking-type" value="karnaval"> Karnaval</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="note">Catatan Tambahan:</label>
+          <textarea id="note" rows="4" placeholder="Tulis catatan khusus jika ada..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Kirim Booking</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
